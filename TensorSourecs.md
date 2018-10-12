@@ -1,6 +1,4 @@
-# Materials to read
-
-## Tensor
+# Tensor Sources
 
 This belows are wikis.
 
@@ -10,6 +8,7 @@ This belows are wikis.
 - [Einstein notation](https://en.wikipedia.org/wiki/Einstein_notation)
 - [Ricci calculus](https://en.wikipedia.org/wiki/Ricci_calculus)
 - [Glossary of tensor theory](https://en.wikipedia.org/wiki/Glossary_of_tensor_theory)
+- [Covariance and contravariance of vectors](https://en.wikipedia.org/wiki/Covariance_and_contravariance_of_vectors)
 
 This belows are matheorld wolfram
 
