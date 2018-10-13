@@ -21,3 +21,9 @@ Nadir Jeevanjee, *An Introduction to Tensor and Group Theory for Physicists*, WP
  
 Joseph C. Kolecki, *An Introduction to Tensors for Students of Physics and Engineering*, NASA, September 2002
 
+## This belows are Vedios
+
+- [Tensor for Beginners](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)
+- [Tensor Calculus](https://www.youtube.com/watch?v=kGXr1SF3WmA&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx)
+
+
