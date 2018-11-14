@@ -1,5 +1,9 @@
 # The Books
 
+## Web Design
+
+Dave Shea, Molly E. Holzschlag. *The Zen of CSS Design: Visual Enlightenment for the Web*. New Riders. 2006 
+
 ## Fourier Analysis
 
 Loukas Grafakos. *Classical and Modern Fourier Analysis*. Pearson Education, Inc. 2006
