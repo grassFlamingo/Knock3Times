@@ -25,6 +25,17 @@ df -h
 du -sh *|sort -n
 ```
 
+rename all files
+
+```bash
+for i in ./*; do
+        md5sum "$i" | awk -v FName="$i" '
+            {cmd="mv " "\""FName"\"" " " $1 ".jpg"}
+            {system(cmd)}
+        '
+done
+```
+
 ## Debuger
 
 ```bash
