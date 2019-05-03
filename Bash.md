@@ -44,3 +44,32 @@ ultimate -c unlimited
 gdb <program> <core dump file>
 ```
 
+## Adjustment
+
+```bash
+nice -n 
+
+```
+
+## PDF
+
+This needs *poppler-utils*. You can install it through
+
+```bash
+sudo aptitude install poppler-utils
+```
+Avaliable tools are
+
+- pdfdetach
+- pdffonts
+- pdfinfo
+- pdftocairo
+- pdftohtml
+- pdftoppm
+- pdftops
+- pdftotext
+- pdfseparate
+- pdfsig
+- pdfunite
+
+
