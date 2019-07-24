@@ -1,5 +1,11 @@
 # A Collection of Linux Bash commands
 
+## Generate Random Passwords | Characters
+
+```bash
+tr -dc [:graph:] < /dev/urandom | head -c 40 | xargs -0 echo
+```
+
 ## Copy Directory Tree Only
 
 ```bash
