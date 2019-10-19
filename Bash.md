@@ -122,4 +122,9 @@ Avaliable tools are
 - pdfsig
 - pdfunite
 
+Remove password in pdf file:
+
+```bash
+qpdf --password='mypassword' --decrypt password.pdf nopassword.pdf
+```
 
