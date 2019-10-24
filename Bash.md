@@ -10,6 +10,16 @@ ssh -CfNg -R listen_port:Dest_host:Dest_port user@Tunnel_Host
 ssh -CfNg -D listen_port user@Tunnel_Host
 ```
 
+Make a turnel proxy for WAN to access LAN
+
+```bash
+# devices in LAN
+ssh -fgCNR wan_port:local_host:local_port user@wan_host
+
+# device in WAN
+ssh -p wan_port -CfNg -D listen_port user@lan_host
+```
+
 ## Special Tricks
 
 Manage your time
