@@ -36,6 +36,11 @@ Then you can use it like:
 alertDelay 20m
 ```
 
+sleep until a specific time
+```bash
+sleep $((`date -d "09:34:00" +%s` - `date +%s`))s
+```
+
 ## squashfs
 
 Squashfs is a hightly compressed read-only filesystem for Linux. It uses zlib compression to compress both files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead. Block sizes greather than 4K are supported up to a maximum of 64K.
