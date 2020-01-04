@@ -40,6 +40,12 @@ sleep until a specific time
 ```bash
 sleep $((`date -d "09:34:00" +%s` - `date +%s`))s
 ```
+### SSH and tar
+
+You can tar a remote file to local machine.
+```bash
+ssh server "cat fullpath.tar.gz" | tar -xzvf -
+```
 
 ## squashfs
 
