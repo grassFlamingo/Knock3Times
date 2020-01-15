@@ -149,3 +149,7 @@ Remove password in pdf file:
 qpdf --password='mypassword' --decrypt password.pdf nopassword.pdf
 ```
 
+## VIM
+
+When you run `vim -d file1, file2, file3 ...` you can use `:tabdo diffoff` to shutdown diff mode in that tab and then `dp` and `dg` will help.
+
