@@ -149,6 +149,17 @@ Remove password in pdf file:
 qpdf --password='mypassword' --decrypt password.pdf nopassword.pdf
 ```
 
+squeeze pdf (you need to install `ghostscript` first)
+
+```bash
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
+```
+where `-dPDFSETTINGS` could one of:
+- /screen
+- /ebook
+- /prepress
+- /default
+
 ## VIM
 
 When you run `vim -d file1, file2, file3 ...` you can use `:tabdo diffoff` to shutdown diff mode in that tab and then `dp` and `dg` will help.
