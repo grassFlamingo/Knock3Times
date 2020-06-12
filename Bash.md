@@ -160,6 +160,12 @@ where `-dPDFSETTINGS` could one of:
 - /prepress
 - /default
 
+extract images from pdf
+
+```bash
+pdfimages -all input.pdf output 
+```
+
 ## VIM
 
 When you run `vim -d file1, file2, file3 ...` you can use `:tabdo diffoff` to shutdown diff mode in that tab and then `dp` and `dg` will help.
