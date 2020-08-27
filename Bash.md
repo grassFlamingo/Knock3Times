@@ -107,6 +107,11 @@ for i in ./*; do
 done
 ```
 
+or
+```
+let cnt=0;for i in *; do nn=`file -b --mime-type $i | awk -F/ '{print $2}'`; end=`printf "%06d.%s" $cnt $nn`; mv $i $end;let cnt=$cnt+1; done
+```
+
 ## Debuger
 
 ```bash
