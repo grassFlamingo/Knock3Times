@@ -180,3 +180,12 @@ When you run `vim -d file1, file2, file3 ...` you can use `:tabdo diffoff` to sh
 ```
 curl wttr.in
 ```
+
+
+## journal 
+
+watch journals
+```bash
+journalctl -f
+```
+
