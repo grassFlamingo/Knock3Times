@@ -116,7 +116,7 @@ let cnt=0;for i in *; do nn=`file -b --mime-type $i | awk -F/ '{print $2}'`; end
 
 ```bash
 gdb
-ultimate -c unlimited
+ulimit -c unlimited
 gdb <program> <core dump file>
 ```
 
