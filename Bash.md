@@ -189,3 +189,31 @@ watch journals
 journalctl -f
 ```
 
+## nvidia
+
+Error: 
+Failed to initialize NVML: Driver/library version mismatch
+
+run
+```
+sudo modprobe -r nvidia-drm
+```
+
+if error, kill processes according to
+```
+sudo lsof /dev/nvidia*
+```
+
+then 
+```bash
+sudo rmmod nvidia_uvm
+sudo rmmod nvidia_modest
+sudo rmmod nvidia
+sudo systemctl restart nvidia-presistences.service
+
+# audo load
+sudo nvidia-smi
+```
+
+
+
